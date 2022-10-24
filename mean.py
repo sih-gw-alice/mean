@@ -1,7 +1,7 @@
 import pandas as pd
-COLOUR="red"
+COLUMN="red"
 dataframe = pd.read_csv("rgb.csv")
 
+subset = dataframe[COLUMN]
+print(subset.means()) 
 
-coloured = dataframe[COLOUR]
-print(coloured.means())
