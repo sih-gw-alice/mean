@@ -1,6 +1,7 @@
 import pandas as pd
+COLUMN = "blue"
 dataframe = pd.read_csv("rgb.csv")
 
 
-blues = dataframe["blue"]
-print(blue.means()) 
+subset = dataframe[COLUMN]
+print(subset.means()) 
