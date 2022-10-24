@@ -4,4 +4,4 @@ dataframe = pd.read_csv("rgb.csv")
 
 subset = dataframe[COLUMN]
 print(subset.means()) 
-
+print(subset.median())
